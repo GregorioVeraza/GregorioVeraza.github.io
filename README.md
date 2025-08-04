@@ -10,7 +10,7 @@ This is a solution for [Frontend Mentor challenge](https://www.frontendmentor.io
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [What I learned](#what-i-learned-building-this-project)
 
 ## Overview
 
@@ -19,15 +19,15 @@ This challenge was to build out this QR code component and got it looking as clo
 
 ## Screenshot
 
-[].(./ejemploPaginaQrComponent.PNG)
+![](./ejemploPaginaQrComponent.PNG)
 
 ## Links
 
-- Solution URL: [https://gregorioveraza.github.io.]https://gregorioveraza.github.io.
+- Solution URL: https://gregorioveraza.github.io.
 
 ## My process
 
-## - Built with
+## Built with
 - HTML
 - CSS Grid
 
