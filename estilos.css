@@ -1,34 +1,13 @@
 /*.attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @font-face {
     font-family: nueva;
     src: url(fuentes/Outfit-SemiBold.ttf);
-    
 }
-
-
-p{
-    font-weight: 700;
-    font-family: nueva;
-    padding-top: 15px;
-    text-align: center;
-}
-
-.primero{
-    font-size: 5px;
-    font-weight: 400px;
-    padding-top: 20px;
-    width: 60px;
-    color: hsl(218, 44%, 22%);
-}
-.segundo{
-    padding-top: 0px;
-    line-height: 6px;
-    width: 50px;
-    font-size: 3.5px;
-    color: hsl(216, 15%, 48%);
+@font-face {
+    font-family: segunda;
+    src: url(fuentes/Outfit-Medium.ttf);   
 }
 body{
     background-color: hsl(212, 45%, 89%);
@@ -39,28 +18,67 @@ body{
     margin: 0;
 }
 
+p{
+    font-weight: 700;
+    font-family: nueva;
+    text-align: center;
+}
+
+
+.primero{
+    font-size: 18px;
+    font-weight: 700px;
+    align-self: center;
+    justify-self: center;
+    width: 80%;
+    color: hsl(218, 44%, 22%);
+    grid-area: "texto";
+}
+.segundo{
+    line-height: 15px;
+    font-family: nueva;
+    width: 80%;
+    font-size: 13px;
+    align-self: stretch;
+    justify-self: center;
+    margin-top: 0%;
+    color: hsl(216, 15%, 48%);
+    grid-area: "subtexto";
+    
+}
+
+
 .contenedorImagen{
-    padding-top: 15px;
+    grid-area: "qr";
+    
+    margin: 0px;
+    align-items: center;
 }
 .imagen{
-    width: 70px;
-    display:block; /* evita espacios extra debajo */
-    border-radius: 3px;
+    width: 100%;
+    max-width: 100%;
+    /* evita espacios extra debajo */
+    border-radius: 20px;
+    align-self: center;
+    justify-self: center;
 }
 
 .contenidoPrincipal{
     background-color: hsl(0, 0%, 100%);
-    height: 120px;
-    width: 75px;
-    border-radius: 3px;
+    height: 420px;
+    width: 250px;
+    min-width: 270px;
+    padding: 10px;
+    border-radius: 20px;
     place-items: center;
+    align-items: center;
     display: grid;
     justify-content: center;
-    grid-template-rows: 50% 25% 25%;
-    grid-area: 
-        'qr'
-        'texto'
-        'subtexto'
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+        "qr"
+        "texto"
+        "subtexto"
     ;
 
 }
