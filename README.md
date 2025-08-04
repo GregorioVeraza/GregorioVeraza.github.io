@@ -19,7 +19,7 @@ This challenge was to build out this QR code component and got it looking as clo
 
 ## Screenshot
 
-![](./ejemploPaginaQrComponent.PNG)
+![Example of the website](ejemploPaginaQrComponent.png)
 
 ## Links
 
